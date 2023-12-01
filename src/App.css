@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.view {
+  display: flex;
+  gap: 30px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+}
+
+.user {
+  border: 1px solid lightgray;
+  width: 300px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.user:hover {
+  background-color: rgb(120, 120, 219);
+  color:white;
+}
+
+.details {
+  border: 1px solid lightgray;
+}
+
+.details-item {
+  border: 1px solid lightgray;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+h4 {
+  padding-left: 15px;
+}
